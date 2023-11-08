@@ -1,0 +1,47 @@
+body {
+  background-color: lightgrey;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 25px;
+  background-color: rgb(201, 198, 198);
+}
+
+.sidebar {
+  background-color: rgb(160, 154, 154);
+  font-weight: 100;
+  font-size: small;
+  list-style-type: none;
+  margin: 0;
+  padding: 20%;
+  grid-column-start: 1;
+  grid-row: 1 / 4;
+}
+.reviews {
+  background-color: rgb(160, 154, 154);
+  font-weight: 100;
+  padding: 0;
+  grid-column-start: 2;
+  text-align: center;
+}
+.averagerating {
+  background-color: rgb(160, 154, 154);
+  font-weight: 100;
+  text-align: center;
+}
+.sentimentanalysis {
+  background-color: rgb(160, 154, 154);
+  font-weight: 100;
+  text-align: center;
+  
+}
+.websitevisitors {
+  background-color: rgb(160, 154, 154);
+  font-weight: 100;
+  grid-column: 2 / span 3;
+  grid-row: 3;
+  text-align: left;
+
+}
